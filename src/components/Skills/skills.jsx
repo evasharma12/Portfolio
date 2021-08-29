@@ -17,8 +17,8 @@ function Skills() {
     backgroundColor : "white",
   }
   return (
-    
-    <div className = "skills">
+    <div id  = "skills-div">
+      <div className = "skills">
       <h1 id = "skills-head">Skills</h1>
       <div id="skills">
 
@@ -72,6 +72,8 @@ function Skills() {
         <p className="skill-p">DSA</p>
       </div>
     </div>
+    </div>
+    
     </div>
     
   );

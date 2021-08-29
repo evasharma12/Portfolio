@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Nav() {
   const styleul = {
     listStyleType: "none",
@@ -13,20 +12,20 @@ function Nav() {
     <div id = "nav">
       <ul style={styleul}>
         <li style={style}>
-          <a href="">About</a>
+          <a href="../About Me/About/#about">About</a>
         </li>
         <li style={style}>
-          <a href="">Education & Experience</a>
+          <a href="../Ed and Exp/Ed and Exp/#flex-cont2">Education & Experience</a>
         </li>
 
         <li style={style}>
-          <a href="">Skills</a>
+          <a href="../Skills/skills/#skills-div">Skills</a>
         </li>
         <li style={style}>
-          <a href="">Projects</a>
+          <a href="../Projects/projects/#proj">Projects</a>
         </li>
         <li style={style}>
-          <a href="">Achievements & Interests</a>
+          <a href="../Achievements/Achievements/#achInt">Achievements & Interests</a>
         </li>
       </ul>
     </div>

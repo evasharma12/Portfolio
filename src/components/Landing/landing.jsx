@@ -3,10 +3,12 @@ import Nav from "./Nav";
 
 import Avatar from "./Avatar";
 
+
 function Landing() {
     const style = {
         color: "#000",
     }
+
   return (
     <div id="landing">
 
@@ -16,7 +18,7 @@ function Landing() {
         <div id="landing-bg-img">
             <p style = {style} id = "hello">HELLO, I'M</p>
             <h1 style = {style} id = "name-heading">Eva Sharma.</h1>
-            <p style = {style} id = "tag">Full Stack Develepor</p>
+            <p style = {style} id = "tag">Full Stack Developer</p>
         </div>
         <div id="landing-info">
             <Avatar/>
