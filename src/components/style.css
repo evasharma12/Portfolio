@@ -343,7 +343,7 @@ CARD */
 #achInt{
     padding: 5% 10% 0.5% 20%;
     text-align: center;
-    background-color: rgb(252, 247, 247);
+    background-color: rgb(245, 245, 245);
 }
 #head{
     margin-bottom: 5%;
@@ -530,4 +530,25 @@ FOOTER */
         grid-template-columns: auto auto;
     }
 
+}
+@media (max-width: 470px){
+    #skills{
+        grid-template-columns: auto;
+    }
+    #flex-cont2{
+        display: block;
+        text-align: center;
+    }
+    #Education-flex,#Experience-flex{
+        padding: 5% 0;
+    }
+    #footer h2{
+        font-size: 1rem;
+    }
+    #footer h3{
+        font-size: 0.8rem;
+    }
+    #footer a, p{
+        font-size: 0.8rem;
+    }
 }
