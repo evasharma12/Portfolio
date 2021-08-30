@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/avatar.png";
+import image from "../images/profile.png";
 
 
 function Avatar(){

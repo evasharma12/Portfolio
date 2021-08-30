@@ -12,20 +12,20 @@ function Nav() {
     <div id = "nav">
       <ul style={styleul}>
         <li style={style}>
-          <a href="../About Me/About/#about">About</a>
+          <a href="/#about" onClick={() => window.location.replace("/#about")}>About</a>
         </li>
         <li style={style}>
-          <a href="../Ed and Exp/Ed and Exp/#flex-cont2">Education & Experience</a>
+          <a href="/#flex-cont2">Education & Experience</a>
         </li>
 
         <li style={style}>
-          <a href="../Skills/skills/#skills-div">Skills</a>
+          <a href="/#skills-div">Skills</a>
         </li>
         <li style={style}>
-          <a href="../Projects/projects/#proj">Projects</a>
+          <a href="/#proj">Projects</a>
         </li>
         <li style={style}>
-          <a href="../Achievements/Achievements/#achInt">Achievements & Interests</a>
+          <a href="/#achInt">Achievements & Interests</a>
         </li>
       </ul>
     </div>
