@@ -12,7 +12,7 @@ function Nav() {
     <div id = "nav">
       <ul style={styleul}>
         <li style={style}>
-          <a href="/#about" onClick={() => window.location.replace("/#about")}>About</a>
+          <a href="/#about">About</a>
         </li>
         <li style={style}>
           <a href="/#flex-cont2">Education & Experience</a>

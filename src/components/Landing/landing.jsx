@@ -34,7 +34,7 @@ function Landing() {
             
             </div>
             <div>
-              <button id = "about-btn">About Me</button>
+            <a href="/#about"><button id = "about-btn">About Me</button></a>
             </div>
             
         </div>

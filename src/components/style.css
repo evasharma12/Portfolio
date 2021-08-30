@@ -551,4 +551,10 @@ FOOTER */
     #footer a, p{
         font-size: 0.8rem;
     }
+    #card{
+        width: 300px;
+    }
+    #card img{
+        width: 300px;
+    }
 }
