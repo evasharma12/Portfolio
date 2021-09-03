@@ -26,6 +26,14 @@
     text-decoration: none;
     color: white;
 }
+#nav a:hover{
+    color: black;
+    border-radius: 20px;
+    
+}
+#nav li:hover{
+    animation: scaleX 0.2s linear forwards;
+}
 /* FLEX CONTAINERS */
 #landing-flex-container{
     
@@ -46,15 +54,20 @@
 #hello{
     font-size: 1.7rem;
     font-weight: 100;
+    
 }
 #tag{
     font-size: 1.5rem;
     font-family: serif;
+    animation: pop 3s ease-in 0.5s backwards;
 }
 #name-heading{
     font-size: 4rem;
+    animation: pop 3s ease-in 0.5s backwards;
 }
-
+#hello{
+    animation: pop 3s ease-in 0.5s backwards;
+}
 
 
 /* LANDING SECOND DIV */
@@ -68,7 +81,11 @@
     height: 20vh;
     border-radius: 50%
 }
-
+#landing-typing{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s 3.5s backwards;
+}
 #landing-info{
     flex: 1;
     color: white;
@@ -85,6 +102,7 @@
 }
 #email:hover{
     color: black;
+    animation: scaleX 0.2s linear forwards;
 }
 #tag2{
     margin-top: 5%;
@@ -103,10 +121,14 @@
 }
 #landing-info a:hover{
     color: black;
+    
 }
 #landing-info a i {
     margin: 0 5%;
     
+}
+#landing-info a i:hover{
+    animation: rotate 0.5s linear forwards;
 }
 #about-btn{
     margin-top: 20%;
@@ -119,6 +141,8 @@
     background-color: black;
     color:white;
     cursor: pointer;
+    /* animation: scaleX 0.2s linear forwards; */
+    animation: rotate 0.5s linear forwards;
 }
 
 /* ABOUT SECTION */
@@ -133,13 +157,17 @@
     font-style: italic;
     font-weight: 200;
 }
+
 #about-parah{
     margin-top: 3%;
+
     font-size: 1rem;
     font-weight: 100;
     font-family: sans-serif;
-    color: rgb(82, 81, 81)
+    color: rgb(82, 81, 81);
+    
 }
+
 
 /* EDUCAITON & EXPERIENCE */
 
@@ -151,6 +179,7 @@
     flex: 1;
     padding: 5% 0 5% 20%;
 }
+
 #Experience-flex{
     flex: 1;
     padding: 5% 10% 5% 3% ;
@@ -168,6 +197,7 @@
 }
 #education h1:hover, #experience h1:hover, #head:hover{
     background-color: rgb(248, 244, 244);
+    animation: typing 1.5s ease-in;
 }
 #education h6,#experience h6{
     margin-top: 15%;
@@ -182,8 +212,12 @@
     color: rgb(105, 103, 103);
     line-height: 1.7;
     font-family: sans-serif;
+    
 }
-
+#NITH:hover, #Gurukul:hover, #HAPS:hover, #EXE:hover, #PR:hover, #Lean-In:hover, #IOTIOT:hover{
+    /* border-bottom: 1px solid rgb(120, 120, 243);; */
+    animation: scaleX 1s linear forwards;
+}
 /* SKILLS SECTION */
 .skills{
     padding: 5% 15% 5% 20%;
@@ -223,6 +257,7 @@
 }
 #skills-head:hover{
     background-color: rgb(248, 244, 244);
+    animation: typing 1.5s ease-in;
 }
 
 .skill-div img{
@@ -244,6 +279,7 @@
     box-shadow: 3px 2px 2px 1px rgb(189, 188, 188);
     border: 0;
     border-radius: 0;
+    animation: rotate 0.5s linear forwards;
 }
 
 /* PROJECTS SECTION */
@@ -341,7 +377,7 @@ CARD */
 
 /* ACHEVEMENTS AND INTERESTS */
 #achInt{
-    padding: 5% 10% 0.5% 20%;
+    padding: 5% 12% 5% 12%;
     text-align: center;
     background-color: rgb(245, 245, 245);
 }
@@ -411,6 +447,7 @@ CARD */
 .content:hover{
 
     box-shadow: inset 6px 2px 1px rgb(236, 234, 234);
+    animation: scaleX 0.2s linear forwards;
 }
 
 .main-container h1{
@@ -438,10 +475,11 @@ FOOTER */
 #footer a{
     text-decoration: none;
     color: white;
+    
 
 }
 #footer a h3{
-
+    
     margin-bottom: 2%;
 }
 .footer-links{
@@ -449,7 +487,14 @@ FOOTER */
     font-size: 1.5rem;
 }
 #footer a:hover{
+    
     color: rgb(5, 5, 5)
+}
+#footer a h3:hover{
+    animation: scaleX 0.5s linear forwards;
+}
+.fab:hover{
+    animation: rotate 0.5s linear forwards;
 }
 #footer p{
     margin-top: 1%;
@@ -512,7 +557,7 @@ FOOTER */
     }
     #nav{
         margin-bottom: 2%;
-        line-height: 1.5;
+        line-height: 2;
         text-align: center;
     }
     #landing-bg-img{
@@ -558,3 +603,29 @@ FOOTER */
         width: 300px;
     }
 }
+
+@keyframes pop{
+    0%{transform: translateY(-1000px);}
+    70%{transform: translateY(0px);}
+    80%{transform: translateY(-80px);}
+    90%{transform: translateY(0px);}
+    95%{transform: translateY(-30px);}
+    100%{transform: translateY(0px);}
+}
+@keyframes scaleX{
+    from{transform: scaleX(1);}
+    to{transform: scaleX(1.2);}
+}
+@keyframes scaleY{
+    from{transform: scaleY(1);}
+    to{transform: scaleY(1.2);}
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+ 
+@keyframes rotate{
+    to{transform: rotateX(0deg);}
+    from{transform: rotateX(360deg);}
+}  

@@ -6,7 +6,7 @@ function Experience(){
         <div id = "experience">
             <h1>Experience</h1>
 
-            <div id = ".EXE">
+            <div id = "EXE">
                 <h6>2021 - Present</h6>
                 <p>.Exe || Technical club of NIT Hamirpur</p>
                 <p>Volunteer ||</p>
@@ -19,7 +19,7 @@ function Experience(){
                 <p>Volunteer ||</p>
                 <p>Writer, Anchor</p>
             </div>
-            <div id = "Lean In">
+            <div id = "Lean-In">
                 <h6>2021 - Present</h6>
                 <p>Lean In @ NITH</p>
                 <p>Community for women in tech at NITH</p>
