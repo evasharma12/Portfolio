@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 
 import Avatar from "./Avatar";
-
+import resume from "../../components/Eva sharma Resume.pdf";
 
 function Landing() {
     const style = {
@@ -42,7 +42,7 @@ function Landing() {
             
             </div>
             <div>
-            <a href="/#about"><button id = "about-btn">About Me</button></a>
+            <a href={resume} download><button id = "about-btn">Download Resume</button></a>
             </div>
             
         </div>
