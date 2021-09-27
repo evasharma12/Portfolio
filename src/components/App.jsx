@@ -9,10 +9,12 @@ import Projects from './Projects/projects';
 import Achievements from './Achievements/Achievements';
 import Footer from './Footer/Footer';
 import image from "./images/filler.jpg";
+import ParticleBackground from '../particleBackground';
 
 function App(){
     return(
         <div>
+            
             <Landing/>
             <div id = "filler">
                 

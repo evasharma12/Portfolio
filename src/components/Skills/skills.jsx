@@ -11,6 +11,7 @@ import react from "../images/react.png";
 import flutter from "../images/flutter.png";
 import firebase from "../images/firebase (1).png";
 import c from "../images/c++.svg";
+import ParticleBackground from "../../particleBackground";
 
 function Skills() {
   const style = {
@@ -18,6 +19,9 @@ function Skills() {
   }
   return (
     <div id  = "skills-div">
+           <div  id = "particles">
+            <ParticleBackground/>
+            </div>
       <div className = "skills">
       <h1 id = "skills-head">Skills</h1>
       <div id="skills">

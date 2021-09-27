@@ -1,4 +1,5 @@
 import React from "react";
+import ParticleBackground from "../../particleBackground";
 
 function Achievements() {
   return (

@@ -5,7 +5,10 @@
 
 /* LANDING PAGE */
 
-
+#particles{
+    position: absolute;
+    z-index: -1;
+}
 #landing{
     background-color: #11698E;
     padding: 1% 0;
