@@ -9,8 +9,13 @@
     position: absolute;
     z-index: -1;
 }
+#landing-image-laptop{
+    width: 100vw;
+    max-height: 100vh;
+    
+}
 #landing{
-    background-color: #11698E;
+    background-color: rgb(120, 120, 243);
     padding: 1% 0;
     padding-bottom: 0;
     margin-left: 0;
@@ -24,6 +29,8 @@
     align-items: center;
     margin: 0.5% 0 1.3% 0;
     overflow: hidden;
+    font-family: monospace;
+    /* position: relative; */
 }
 #nav  a{
     text-decoration: none;
@@ -35,7 +42,7 @@
     
 }
 #nav li:hover{
-    animation: scaleX 0.2s linear forwards;
+    animation: scaleX 1s linear forwards;
 }
 /* FLEX CONTAINERS */
 #landing-flex-container{
@@ -102,7 +109,7 @@
 }
 #email:hover{
     color: black;
-    animation: scaleX 0.2s linear forwards;
+    animation: scaleX 1s linear forwards;
 }
 #tag2{
     margin-top: 5%;
@@ -180,7 +187,7 @@
 
     font-size: 1rem;
     font-weight: 100;
-    font-family: sans-serif;
+    font-family: monospace;
     color: rgb(82, 81, 81);
     
 }
@@ -228,7 +235,7 @@
     font-size: 0.7rem;
     color: rgb(105, 103, 103);
     line-height: 1.7;
-    font-family: sans-serif;
+    font-family: monospace;
     
 }
 #NITH:hover, #Gurukul:hover, #HAPS:hover, #EXE:hover, #PR:hover, #Lean-In:hover, #IOTIOT:hover{
@@ -246,6 +253,7 @@
     grid-row-gap: 50px;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    font-family: monospace;
 }
 
 .skill-div{
@@ -349,7 +357,7 @@ CARD */
 #below-img{
     padding: 5%;
     line-height: 2;
-    font-family: sans-serif;
+    font-family: monospace;
     box-shadow: inset 6px 2px 1px rgb(236, 234, 234);
     background-color: white;
 }
@@ -396,6 +404,7 @@ CARD */
     padding: 5% 12% 5% 12%;
     text-align: center;
     background-color: rgb(245, 245, 245);
+    font-family: monospace;
 }
 #head{
     margin-bottom: 5%;
@@ -463,7 +472,7 @@ CARD */
 .content:hover{
 
     box-shadow: inset 6px 2px 1px rgb(236, 234, 234);
-    animation: scaleX 0.2s linear forwards;
+    animation: scaleX 1s linear forwards;
 }
 
 .main-container h1{
@@ -480,9 +489,10 @@ FOOTER */
 #footer{
     padding: 3% 10%;
     text-align: center;
-    background-color: #11698E;
+    background-color: rgb(120, 120, 243);
     color: #F8F1F1;
     line-height: 1.5;
+    font-family: monospace;
     
 }
 #footer h2,h3{
@@ -507,7 +517,7 @@ FOOTER */
     color: black;
 }
 #footer a h3:hover{
-    animation: scaleX 0.5s linear forwards;
+    animation: scaleX 1s linear forwards;
 }
 .fab:hover{
     animation: rotate 0.5s linear forwards;
@@ -630,8 +640,9 @@ FOOTER */
     100%{transform: translateY(0px);}
 }
 @keyframes scaleX{
-    from{transform: scaleX(1);}
-    to{transform: scaleX(1.2);}
+    0%{transform: scaleX(1);}
+    50%{transform: scaleX(1.2);}
+    100%{transform: scaleX(1);}
 }
 @keyframes scaleY{
     from{transform: scaleY(1);}

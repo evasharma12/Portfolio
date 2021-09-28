@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
+import image from "../images/Portfolio2.png";
 
 import Avatar from "./Avatar";
 import resume from "../../components/Eva sharma Resume.pdf";
@@ -13,8 +14,10 @@ function Landing() {
     <div id="landing">
 
         <Nav/>
-
-      <div id = "landing-flex-container">
+      <div>
+        <img id = "landing-image-laptop" src = {image} alt = "landing-page"></img>
+      </div>
+      {/* <div id = "landing-flex-container">
         <div id="landing-bg-img">
           <div id = "intro-div">
           <p style = {style} id = "hello">HELLO, I'M</p>
@@ -46,7 +49,7 @@ function Landing() {
             </div>
             
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
