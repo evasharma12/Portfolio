@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import image from "../images/Portfolio2.png";
+import image from "../images/Portfolio3.png";
 
 import Avatar from "./Avatar";
 import resume from "../../components/Eva sharma Resume.pdf";

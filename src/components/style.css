@@ -12,9 +12,9 @@
 #landing-image-laptop{
     width: 100vw;
     max-height: 100vh;
-    
 }
 #landing{
+    background-color: rgb(161, 161, 252);
     background-color: rgb(120, 120, 243);
     padding: 1% 0;
     padding-bottom: 0;
@@ -24,6 +24,7 @@
 /* NAVBAR */
 
 #nav{
+    
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -35,6 +36,7 @@
 #nav  a{
     text-decoration: none;
     color: white;
+    font-size: 1rem;
 }
 #nav a:hover{
     color: #F8F1F1;
@@ -171,20 +173,20 @@
 
 /* ABOUT SECTION */
 #about{
-    padding: 5% 20%;
+    padding: 1% 20% 5% 20%;
     line-height: 2;
-    background-color: #F0F8FF;
-    text-align: justify;
+    /* background-color: #F0F8FF; */
+    text-align: center;
 }
 #about-head{
     color: rgb(120, 120, 243);
     font-style: italic;
-    font-weight: 200;
+    font-weight: 900;
 }
 
 #about-parah{
     margin-top: 3%;
-
+    text-align: justify;
     font-size: 1rem;
     font-weight: 100;
     font-family: monospace;

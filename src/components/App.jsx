@@ -16,9 +16,9 @@ function App(){
         <div>
             
             <Landing/>
-            <div id = "filler">
+            {/* <div id = "filler">
                 
-            </div>
+            </div> */}
             
             <About/>
             <EduExp/>
