@@ -12,6 +12,8 @@ import flutter from "../images/flutter.png";
 import firebase from "../images/firebase (1).png";
 import c from "../images/c++.svg";
 import ParticleBackground from "../../particleBackground";
+import Sass from "../images/sass.png";
+import Figma from "../images/figma.svg";
 
 function Skills() {
   const style = {
@@ -36,12 +38,28 @@ function Skills() {
         <p className="skill-p">CSS 3</p>
       </div>
       <div className="skill-div">
+      <img src = {Sass} alt = "Sass"></img>
+        <p className="skill-p">Sass</p>
+      </div>
+      <div className="skill-div">
       <img src = {Bootstrap} alt = "Bootstrap"></img>
         <p className="skill-p">Bootstrap</p>
       </div>
       <div className="skill-div">
       <img src = {JS} alt = "JS"></img>
         <p className="skill-p">JS</p>
+      </div>
+      <div className="skill-div">
+      <img src = {react} alt = "React"></img>
+        <p className="skill-p">React</p>
+      </div>
+      <div className="skill-div">
+      <img src = {Figma} alt = "Figma"></img>
+        <p className="skill-p">Figma</p>
+      </div>
+      <div className="skill-div">
+      <img src = {flutter} alt = "Flutter"></img>
+        <p className="skill-p">Flutter</p>
       </div>
       <div className="skill-div">
       <img src = {Node} style = {style} alt = "Node JS"></img>
@@ -55,14 +73,7 @@ function Skills() {
       <img src = {mongoDB} style = {style} alt = "Mongo DB"></img>
         <p className="skill-p">Mongo DB</p>
       </div>
-      <div className="skill-div">
-      <img src = {react} alt = "React"></img>
-        <p className="skill-p">React</p>
-      </div>
-      <div className="skill-div">
-      <img src = {flutter} alt = "Flutter"></img>
-        <p className="skill-p">Flutter</p>
-      </div>
+
       <div className="skill-div">
       <img src = {firebase}alt = "Firebase"></img>
         <p className="skill-p">Firebase</p>
@@ -73,7 +84,7 @@ function Skills() {
       </div>
       <div className="skill-div DSA">
       
-        <p className="skill-p">DSA</p>
+        <p className="skill-p">Data Structures</p>
       </div>
     </div>
     </div>
