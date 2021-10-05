@@ -1,7 +1,7 @@
 import bodyshaming from "../images/Body shaming.png";
 import ToDoList from "../images/TOdolist.png";
 import codequest from "../images/CodeQuest.png";
-import Portfolio from "../images/Portfolio.png";
+import Portfolio from "../images/Portfolio3.png";
 
 const projects = [
     {

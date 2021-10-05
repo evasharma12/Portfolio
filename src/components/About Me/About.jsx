@@ -1,12 +1,10 @@
 import React from 'react';
 import ParticleBackground from "../../particleBackground";
 import resume from "../../components/Eva sharma Resume.pdf";
-import Nav from "../Landing/Nav";
 
 function About(){
     return(
         <div id = "about">
-            <Nav/>
             <div  id = "particles">
             <ParticleBackground/>
             </div>
