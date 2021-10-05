@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
-import image from "../images/Portfolio3.png";
+import image from "../images/Portfolio.png";
+import ParticleBackground from "../../particleBackground";
 
 // import Avatar from "./Avatar";
 // import resume from "../../components/Eva sharma Resume.pdf";
@@ -13,8 +14,11 @@ function Landing() {
   return (
     <div id="landing">
 
-        <Nav/>
-      <div>
+        {/* <Nav/> */}
+        <div  id = "particles">
+            <ParticleBackground/>
+            </div>
+      <div id = "landing-img-div">
         <img id = "landing-image-laptop" src = {image} alt = "landing-page"></img>
       </div>
       {/* <div id = "landing-flex-container">
